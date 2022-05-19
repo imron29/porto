@@ -1,0 +1,10 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #6c757d;
+}
+#gallery {
+  background-color: #6c757d;
+}
+section {
+  scroll-margin-top: 5rem;
+}
