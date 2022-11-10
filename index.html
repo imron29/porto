@@ -1,267 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <!-- Animation CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- LightBox -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/lightbox.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="icon" type="image/x-icon" href="img/kl.ico">
+  <title>Kenari Lovers</title>
+</head>
 
-    <!-- Icons CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+<body id="home" oncontextmenu="return false">
+  <!-- NAV -->
+  <nav class=" navbar navbar-expand-lg shadow-sm fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars" aria-hidden="true" style="color:#ffffff;"></i>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home"><i class="fa-solid fa-house mr-2"></i>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#masukan">Comment</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">References</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- END -->
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- LightBox CSS -->
-    <link rel="stylesheet" href="dist/css/lightbox.css">
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-2">Selamat Datang</h1>
+    <p class="lead">Mari mengenal jenis dan asal burung kenari bersama ..</p>
+    <p class="lead">
+      <a class="btn btn-warning btn-lg" href="#about" id="playmusic" role="button"><span>Lanjut ??</span></a>
+    </p>
+  </div>
+  <!-- End -->
 
-    <title>My Portfolio And Product</title>
-  </head>
-  <body id="home">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="https://www.instagram.com/muhamad.imron29/" target="blank" title="My Instagram">Muhamad Imron S.P</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col mb-3">
+          <h2 style="font-weight: bold;">About Canary</h2>
+          <hr class="bg-dark mb-4 mt-0 d-inline-block mx-auto" style="width: 230px; height: 1px;">
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-mb-4" data-aos="fade-up" data-aos-duration="1000">
+          <p class="col-mb-4" style="padding-left: 4px;">
+            Burung kenari dengan nama latin Serius canaria merupakan burung yang memiliki postur mungil. Meskipun
+            posturnya kecil, suara kicaunya begitu nyaring.
+            Satwa ini pertama kali ditemukan oleh Jean de Berthan Cout, seorang pelaut asal Perancis ini. Meski bernama
+            kenari, namun burung ini tidak ada kaitannya sama sekali dengan pohon kenari. Penamaan “kenari” merujuk pada
+            nama pulau yang menjadi habitat aslinya, yakni Kepulauan Canary.
+          </p>
+          <br>
+          <div class="col-mb-4" data-aos="fade-up" data-aos-duration="1200">
+            <p class="col-mb-4" style="padding-left: 4px;">
+              Burung kenari biasa disebut sebagai burung penyanyi.
+              Ciri khas utama dapat dilihat dari posturnya serta kombinasi warna bulunya yang unik. Kenari kaya akan
+              jenis suara kicauan.
+              Nada yang dikeluarkannya juga terdengar seperti irama.
+            </p>
+            <br>
+            <div class="col-mb-4" data-aos="fade-up" data-aos-duration="1400">
+              <p class="col-mb-4" style="padding-left: 4px; padding-bottom: 50px;">
+                Berikut dibawah adalah penjelasan lengkap tentang ciri khas
+                dari berbagai macam negara dengan lengkap serta ukuran beserta foto
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END -->
 
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col">
+          <h2 style="font-weight: bold;">Gallery</h2>
+          <hr class="bg-dark mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 1px;">
+        </div>
+      </div>
+      <div class="row justify-content-center" style="margin-bottom: 80px;">
+        <div class="col-md-4 mb-3" data-aos="fade-in" data-aos-duration="1000">
+          <div class="card shadow">
+            <a href="gallery/yellow.jpg" data-lightbox="whatever">
+              <img src="gallery/yellow.jpg" class="card-img-top" alt="Gallery-1" title="Kenari American Singer" />
+            </a>
+            <div class="card-body">
+              <p class="card-text"><b>
+                  Kenari American Singer (American Singer Canaries) : </b> Seekor burung penyayi berasal dari amerika,
+                awal mula american singer ini awalnya dikembangkan oleh sekelompok perempuan di Boston Massachussets,
+                Amerika yaitu sekitar tahun 1930 silam, menurut sumber Kenarimania.com.
+                Ciri-cirinya yaitu bulunya biasanya berwarna kuning, tubuhnya bulat dan leher cenderung pendek.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card shadow" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="200">
+            <a href="gallery/black.jpeg" data-lightbox="whatever">
+              <img src="gallery/black.jpeg" class="card-img-top" alt="Gallery-1" title="Kenari Black Headed Canaries" />
+            </a>
+            <div class="card-body">
+              <p class="card-text"><b>
+                  Kenari Kepala-hitam (Black Headed Canaries) : </b>
+                Ciri burung ini mempunyai panjang tubuh black-headed canary sekitar 12-14 cm.
+                Tidak seperti kenari yang memerlukan perhatian khusus dalam sexing (identifikasi jenis kelamin),
+                kenari kepala-hitam mudah dibedakan antara jantan dan betina, berdasarkan penampilan dan warna bulunya.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card shadow" data-aos="fade-in" data-aos-duration="1300" data-aos-delay="300">
+            <a href="gallery/lizard.jpg" data-lightbox="whatever">
+              <img src="gallery/lizard.jpg" class="card-img-top" alt="Gallery-1" title="Kenari Lizard Canaries" />
+            </a>
+            <div class="card-body">
+              <p class="card-text"><b>
+                  Kenari Lizard (Lizard Canaries) : </b> Ciri burung kenari lizard yaitu, postur tubuh berukuran sekitar
+                13
+                sampai 14 cm. Motif pada bulu bagian dada dan punggungnya seperti kadal.
+                Kemudian pada bagian sayap dan ekor biasanya kebanyakan berwarna hitam namun juga tergantung warna
+                dasarnya.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card shadow" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="400">
+            <a href="gallery/stafford.jpg" data-lightbox="whatever">
+              <img src="gallery/stafford.jpg" class="card-img-top" alt="Gallery-1" title="Kenari Sttaford" />
+            </a>
+            <div class="card-body">
+              <p class="card-text"><b>
+                  Kenari Stafford (Stafford Canaries) : </b> memiliki sejarah perkembangan yang unik.
+                Standar dari pengembangan kenari Stafford sudah ditentukan sebelum burung ini mulai dicoba diternakkan.
+                Bermula pada tahun 1970-an,
+                ada sebuah kelompok penangkar kenari yang saat itu mengembangkan kenari warna yang ada di daratan Eropa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card shadow" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="500">
+            <a href="gallery/bread.jpg" data-lightbox="whatever">
+              <img src="gallery/bread.jpg" class="card-img-top" alt="Gallery-1" title="Kenari Color Bred" />
+            </a>
+            <div class="card-body">
+              <p class="card-text"><b>
+                  Kenari Color Bred : </b>
+                Ciri burung kenari ini adalah bulunya terlihat sangat bersih, dan jika di
+                pegang bulunya terasa sangat halus.
+                Kemudian pada bagian leher sampai kepala tidak memanjang. Biasanya burung ini juga berdiri tegak sampai
+                45 derajat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card shadow" data-aos="fade-in" data-aos-duration="1600" data-aos-delay="600">
+            <a href="gallery/jambul.jpg" data-lightbox="whatever">
+              <img src="gallery/jambul.jpg" class="card-img-top" alt="Gallery-1" title="Kenari Belgium Canaries" />
+            </a>
+            <div class="card-body">
+              <p class="card-text"><b>
+                  Kenari Belgia (Belgium Canaries) : </b> Ciri burung kenari belgia atau belgian fancy canary adalah
+                salah satu
+                kenari yang tergolong paling tua. Kenari Belgia ini juga salah satu kenari yang cukup
+                berpengaruh penting dalam perkembangan jenis-jenis kenari yang bervariasi dari waktu ke waktu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End -->
+
+  <!--Team-->
+  <section id="team">
+    <div class="container">
+      <div class="row text-center mb-2 text-white" style="padding-bottom: 30px;">
+        <div class="col">
+          <h2 style="font-weight: bold;">Team</h2>
+          <hr class="bg-white mx-auto" style="width: 115px; height: 1px;">
+          <p>Below is the team from which this website was formed</p>
+        </div>
+      </div>
+      <div class="row m-auto col-md-8 col-lg-12 col-sm-12 shadow-sm">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/imron.png" class="img-fixed-top" alt="Imron" title="This is Muh. Imron S.p">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: bold;">Muhamad Imron</h5>
+              <p class="card-text">Web Developer & Code writer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/ridola.JPG" class="img-fixed-top" alt="Ridola" title="This is Ridola Parsito">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: bold;">Ridola Parsito</h5>
+              <p class="card-text">Web Developer & Code writer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/salwa.png" class="img-fixed-top" alt="Salwa" title="Salwa Nadifa">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: bold;">Salwa Nadifa</h5>
+              <p class="card-text">Documentation, papers, & reference finder</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/imam.jpeg" class="img-fixed-top" alt="Imam" title="This is Imam Hidayat">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: bold;">Imam Hidayat</h5>
+              <p class="card-text">Code writer section image team & Navbar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End-->
+
+  <!-- Comment -->
+  <section class="head pb-5" id="masukan">
+    <div class="container my-5">
+      <div class="card-maps">
+        <div class="card-body">
+          <h2 class="font-weight-bold text-center">Your Comment</h2>
+          <hr class="bg-dark mx-auto" style="width: 270px; height: 1.5px;">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="row pt-3">
+                <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                </div>
+                <div class="col-lg-10 col-md-9 col-sm-9 mb-5 mr-3">
+                  <h3><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Lokasi Kami.</h3>
+                  <p>Jl. Pemuda rawamangun.<br>
+                    Jakarta Timur</p>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.539867113933!2d106.88447161468562!3d-6.192264695517138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4eba2c078a3%3A0x3e10b38445474a73!2sUniversitas%20Bina%20Sarana%20Informatika%20Kampus%20Pemuda%20(UBSI%20Pemuda)!5e0!3m2!1sen!2sid!4v1668089503433!5m2!1sen!2sid"
+                    width="300" height="150" style="border:1px #0000004f;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+              <form name="kenari-komen">
+                <div class="form-row">
+                  <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                    <label>Nama Depan</label>
+                    <input name="namaDepan" type="text" class="form-control" required="true"
+                      oninput="this.setCustomValidity('')"
+                      oninvalid="this.setCustomValidity('Nama depan harus diisi !')" placeholder="Nama Depan">
+                  </div>
+                  <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                    <label>Nama Belakang</label>
+                    <input name="namaBelakang" type="text" class="form-control" required="true"
+                      oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Nama belakang juga..')"
+                      placeholder="Nama Belakang">
+                  </div>
+                </div>
+                <label>Email</label>
+                <input name="email" type="Email" placeholder="Email" required="true" class="form-control mb-3">
+                <label>Pedapat Anda Tentang Burung Kenari?</label>
+                <textarea name="komentar" class="form-control mb-4" placeholder="Komentar Anda?" id="" cols="30"
+                  rows="5"></textarea>
+                <button class="btn btn-primary btn-kirim float-right" type="submit">Kirim</button>
+                <button class="btn btn-primary float-right btn-loading mr-2 d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                  <strong>Thank you!</strong> Pesan anda sudah kami terima.
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End -->
+
+  <!-- Footer -->
+  <div class="page-footer" style="background-color: #000; opacity: 80%;">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-12 text-center">
+        </div>
+      </div>
+    </div>
+    <div class="container text-center text-md-left mt-5">
+      <div class="row">
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolt text-white">Puurpose</h6>
+          <hr class="bg-white mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 1px;">
+          <p class="mt-2 text-white">With the existence of this web, what actually happens is to fulfill the task of the
+            practicum UAS for the Web Programming Course..</p>
+        </div>
+
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolt text-white">Technology</h6>
+          <hr class="bg-white mb-4 mt-0 d-inline-block mx-auto" style="width: 111px; height: 1px;">
+          <ul class="list-unstyled text-white">
+            <li class="my-2"><i class="fa fa-stack-overflow mr-2" aria-hidden="true"></i><a
+                href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">HTML
+                5</a></li>
+            <li class="my-2"><i class="fa-brands fa-bootstrap mr-2"></i><a
+                href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank">BootStrap 4 &
+                5</a></li>
+            <li class="my-2"><i class="fa-brands fa-css3-alt mr-2"></i><a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+            <li class="my-2"><i class="fa-brands fa-square-font-awesome mr-2"></i><a
+                href="https://fontawesome.com/v4/icons/" target="_blank">F.Awesome</a></li>
+            <li class="my-2"><i class="fa fa-stack-overflow mr-2" aria-hidden="true"></i><a
+                href="https://stackoverflow.com/" target="_blank">StackOverflow</a></li>
+            <li class="my-2"><i class="fa fa-th-large mr-2" aria-hidden="true"></i><a
+                href="https://lokeshdhakar.com/projects/lightbox2/" target="_blank">Light Box</a></li>
+            <li class="my-2"><i class="fa fa-window-restore mr-2" aria-hidden="true"></i><a
+                href="https://michalsnik.github.io/aos/" target="_blank">AOS</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolt text-white">Developing Team</h6>
+          <hr class="bg-white mb-4 mt-0 d-inline-block mx-auto" style="width: 153px; height: 1px;">
+          <ul class="list-unstyled text-white">
+            <li class="my-2"><i class="fa fa-user mr-2" aria-hidden="true"></i><a
+                href="https://www.instagram.com/ridolaparsito/" target="_blank">Ridola Parsito</a></li>
+            <li class="my-2"><i class="fa fa-user mr-2" aria-hidden="true"></i><a
+                href="https://www.instagram.com/muhmadimron_/" target="_blank">Muhamad Imron</a></li>
+            <li class="my-2"><i class="fa fa-user mr-2" aria-hidden="true"></i><a
+                href="https://www.instagram.com/salwa.ndf/" target="_blank">Salwa Nadifa</a></li>
+            <li class="my-2"><i class="fa fa-user mr-2" aria-hidden="true"></i><a
+                href="https://www.instagram.com/fridayyyyy99/" target="_blank">Imam Hidayat</a></li>
+          </ul>
+        </div>
+
+        <div id="kontak" class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolt text-white">Contact</h6>
+          <hr class="bg-white mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; height: 1px;">
+          <ul class="list-unstyled text-white">
+            <li class="my-2"><i class="fa fa-phone mr-3"></i><a href="">+6282343891</a></li>
+            <li class="my-2"><i class="fa fa-instagram mr-3"></i>Instagram</li>
+            <li class="my-2"><i class="fa fa-facebook-square mr-3"></i>Facebook</li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- End -->
+    </div>
+  </div>
 
-    <!-- JUMBO -->
-    <section class="jumbotron text-center">
-        <a href="img/pp.jpg" data-lightbox="image-1" data-title="Saya Sendiri">
-        <img src="img/imron.jpg" alt="Muhamad Imron" width="200" class="rounded-circle shadow">
-        </a>
-        <h1 class="display-5 fw-bold">Muhamad Imron</h1>
-        <p class="lead"></p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,170.7C384,149,480,107,576,106.7C672,107,768,149,864,181.3C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- End -->
+  <div id="footer" class="footer-Copyright text-left py-1 px-3" style="background-color: #000000; opacity: 90%;">
+    <p class="text-white" style="margin-top: 15px;">&copy; Disusun oleh.
+      <a href="#home">Kelompok 3</a>
+    </p>
+  </div>
+</body>
+<!-- End -->
 
-    <!-- About -->
-    <section id="about">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col" data-aos="fade-in" data-aos-duration="1000">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
-                    <p>My passion for building digital products is shaped by having the mindset of putting humans in the center of attention; to ensure the product team is solving the right problem for the people.</p>
-                </div>
-                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
-                    <p>My design process is backed-up with the iterative approach of user research, problem definition, hypotheses creations, prototyping, and testing.</p>
-                </div>
-                <div class="col-mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <p>My strong focus is on discovery research and building design concepts that will enable organizations in defining a new strategy or product opportunities to help the business gain its competitive advantage.</p>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6c757d" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,80C384,107,480,181,576,224C672,267,768,277,864,250.7C960,224,1056,160,1152,154.7C1248,149,1344,203,1392,229.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- End -->
+<!-- Animation Write UP -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <!-- Gallery -->
-    <section id="gallery">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Gallery</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3" data-aos="fade-in" data-aos-duration="500">
-                    <div class="card shadow">
-                        <a href="gallery/1.jpg" data-lightbox="whatever">
-                        <img src="gallery/1.jpg" class="card-img-top" alt="Gallery-1">
-                        </a>
-                        <div class="card-body">
-                          <p class="card-text">This is an example of image 1, it can be changed to your product image and so on.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow" data-aos="fade-in" data-aos-duration="500" data-aos-delay="100">
-                        <a href="gallery/2.jpg" data-lightbox="whatever">
-                        <img src="gallery/2.jpg" class="card-img-top" alt="Gallery-1">
-                        </a>
-                        <div class="card-body">
-                          <p class="card-text">This is an example of image 2, it can be changed to your product image and so on.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow" data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">
-                        <a href="gallery/3.jpg" data-lightbox="whatever">
-                        <img src="gallery/3.jpg" class="card-img-top" alt="Gallery-1">
-                        </a>
-                        <div class="card-body">
-                          <p class="card-text">This is an example of image 3, it can be changed to your product image and so on.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300">
-                        <a href="gallery/4.jpg" data-lightbox="whatever">
-                        <img src="gallery/4.jpg" class="card-img-top" alt="Gallery-1">
-                        </a>
-                        <div class="card-body">
-                          <p class="card-text">This is an example of image 4, it can be changed to your product image and so on.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow" data-aos="fade-in" data-aos-duration="500" data-aos-delay="400">
-                        <a href="gallery/5.jpg" data-lightbox="whatever">
-                        <img src="gallery/5.jpg" class="card-img-top" alt="Gallery-1">
-                        </a>
-                        <div class="card-body">
-                          <p class="card-text">This is an example of image 5, it can be changed to your product image and so on.</p>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,240C384,235,480,213,576,192C672,171,768,149,864,170.7C960,192,1056,256,1152,272C1248,288,1344,256,1392,240L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- End -->
+<script>
+  AOS.init({
+    once: true
+  });
+</script>
+<!-- End Animation Js -->
 
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>Contact Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                        <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                      </div>
-                    <form name="muhamadimron-form">
-                        <div class="mb-3">
-                          <label for="name" class="form-label">Nama Lengkap</label>
-                          <input type="text" class="form-control" placeholder="Nama Anda" id="name" aria-describedby="name" name="nama">
-                        </div>
-                        <div class="mb-3">
-                          <label for="email" class="form-label">Email</label>
-                          <input type="email" class="form-control" placeholder="Email" id="email" aria-describedby="email" name="email" required="" oninvalid="this.setCustomValidity('Please Enter valid email with @')">
-                        </div>
-                        <div class="mb-3">
-                            <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" placeholder="Pesan Untuk Kami!" id="pesan" rows="3" name="pesan"></textarea>
-                            <div id="sosial" class="form-text text-end">Sosial me: <a href="https://www.facebook.com/profile.php?id=100011885149091" target="blank" title="Facebook"><i class="bi bi-facebook"></i></a>
-                            <span> <a href="https://www.instagram.com/muhamad.imron29/" target="blank" title="Instagram"><i class="bi bi-instagram"></i></a></span>
-                        </div>
-                        </div>
-                        <button type="submit" class="btn btn-dark btn-kirim">Kirim</button>
+<!-- BS.5 -->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- End -->
 
-                        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Loading...
-                          </button>
-                      </form>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6c757d" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,192C672,160,768,128,864,133.3C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>   
-         <!-- End -->
+<!-- LightBox -->
+<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<!-- End -->
 
-    <!-- Footer -->
-    <footer class="bg-secondary text-white text-center pb-5">
-        <p>Copyright © 2022 by Muhamad Imron</p>
-    </footer>
-    <!-- End -->
+<!-- BS.4 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+</script>
+<!-- End -->
 
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- LightBox JS -->
-    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<!-- Google Sheet -->
+<script src="js/sheet.js"></script>
+<!-- End -->
 
-    <!-- Animation Js -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- NavScrolled In/Out -->
+<script src="js/scolled.js"></script>
+<!-- End -->
 
-      <script>
-        AOS.init({
-          once: true,
-        });
-      </script>
-        <!-- End Animation Js -->
-      
-        <!-- Animation II -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+<!-- Auto Close NAV -->
+<script src="js/closeNav.js"></script>
+<!-- End -->
+<script src="js/audio.js"></script>
+</body>
 
-      <script>
-        gsap.registerPlugin(TextPlugin);
-        gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Student | Content Creator' })
-
-      </script>
-
-      <!-- End Animation II -->
-      
-      <!-- Button Sent JS -->
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWfMrIhxE7qE0PC5ykhrglwaEiFwOSGjDNtmKB8_jX5PUdUXmFnnrbV1sNwXnjrTT7/exec';
-        const form = document.forms['muhamadimron-form'];
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const myAlert = document.querySelector('.my-alert');
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault();
-          // klik submit
-          // Show loading, Hide send
-          btnLoading.classList.toggle('d-none');
-          btnKirim.classList.toggle('d-none');
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                // Show send, Hide loading
-                btnLoading.classList.toggle('d-none');
-                btnKirim.classList.toggle('d-none');
-                // show alert
-                myAlert.classList.toggle('d-none')
-                // reset
-                form.reset()
-                console.log('Success!', response)
-            })
-            .catch(error => console.error('Error!', error.message));
-        });
-      </script>
-
-      <audio autoplay loop>
-        <source src="music/neffex.mp3" type="audio/mpeg">
-      </audio>
-      <!-- Music -->
-      <script>
-        function myFunction() {
-        var x = document.getElementById("myAudio").autoplay;
-        document.getElementById("demo").innerHTML = x;
-      }
-      </script>
-  </body>
 </html>

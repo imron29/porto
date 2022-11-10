@@ -1,10 +1,104 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #6c757d;
+* {
+  font-family: poppins;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-#gallery {
-  background-color: #6c757d;
+
+html {
+  scroll-behavior: smooth;
 }
+
 section {
-  scroll-margin-top: 5rem;
+  padding-top: 4rem;
+}
+
+/* Footer */
+li a {
+  color: #ffffff !important;
+}
+
+p a {
+  color: #ffffff !important;
+}
+
+#team {
+  background-color: #323232;
+}
+
+.section-padding {
+  padding: 100px o;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.288) 0%, rgba(5, 5, 5, 0.9) 100%),
+    url("img/Pakan-Burung-Kenari.jpg");
+  color: white;
+  position: relative;
+  background-position: center -1px;
+  background-size: cover;
+  height: 650px;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.jumbotron p {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.jumbotron a {
+  margin: 20px;
+}
+
+.navbar-nav a {
+  color: #ffffff !important;
+  margin: 0 20px;
+  margin-top: 10px;
+}
+
+.navbar-toggler {
+  color: transparent !important;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: -1px;
+}
+
+.card .img-fixed-top {
+  border: 1px solid #ffffff;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.head {
+  background-color: #323232;
+}
+
+.navbar {
+  transition: all 0.5s;
+  color: #000000;
+}
+
+.navbar-scrolled {
+  background-color: #000000e2;
+  opacity: 80%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-maps {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.468);
+  border: 1px solid rgba(255, 255, 255, 0.468);
 }
